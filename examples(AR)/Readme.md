@@ -209,6 +209,57 @@
 최종 비용 (w=0.66, r_penalty=2000.00, r_ds=100.00) = 10.218
 
 
+=================================================================
+
+## [n200] initial condition(made by partial SA) + 1st SA(iter10000) + 2nd SA(iter20000) + 3rd SA(iter40000) 
+### partial SA and 1st, 2nd, 3rd SA's cost function use AREA, HPWL, penalty(exceed the standard chip penalty)
+
+(where standard chip is square which has width, height = sqrt(all modules area sum*1.2) )
+
+#### 1st SA (seed 4) 
+- 초기 Seed 4 비용: 12.854 -
+<img width="2984" height="1507" alt="floorplan_Initial_Seed_4" src="https://github.com/user-attachments/assets/1b439b9e-953b-4189-9ece-948cc5c11b28" />
+
+#### 2nd SA (seed 4) 
+- Cycle 1 :Seed 4 비용: 12.854 -> 7.671 (+5.183) -
+<img width="2984" height="1530" alt="floorplan_Cycle_1_Seed_4" src="https://github.com/user-attachments/assets/6688f53c-0e54-478c-a5b1-0465c83ca1b1" />
+
+- Cycle 2 :Seed 4 비용: 7.671 -> 7.177 (+0.494) -
+<img width="2984" height="1531" alt="floorplan_Cycle_2_Seed_4" src="https://github.com/user-attachments/assets/0a5ce0fe-5cc1-43a8-a44e-7a968fa072c0" />
+
+- Cycle 3 :Seed 4 비용: 7.177 -> 6.682 (+0.495) -
+<img width="2984" height="1532" alt="floorplan_Cycle_3_Seed_4" src="https://github.com/user-attachments/assets/5bda4bac-3c98-40ad-83ae-744a83cbd387" />
+
+- Cycle 4 :Seed 4 비용: 6.682 -> 6.609 (+0.073) -
+<img width="2984" height="1537" alt="floorplan_Cycle_4_Seed_4" src="https://github.com/user-attachments/assets/5003c0c6-8f84-4787-a6ad-15f33898380d" />
+
+- Cycle 5 :Seed 4 비용: 6.609 -> 6.302 (+0.307)) -
+<img width="2984" height="1536" alt="floorplan_Cycle_5_Seed_4" src="https://github.com/user-attachments/assets/9a657d84-552d-42ab-af78-2b3e06c7f456" />
+
+- Cycle 6 :Seed 4 비용: 6.302 -> 5.605 (+0.697) -
+<img width="2983" height="1537" alt="floorplan_Cycle_6_Seed_4" src="https://github.com/user-attachments/assets/3a162c09-f0ff-4760-9e15-2a2c6f071a2b" />
+
+- Cycle 7 : Seed 4 비용: 5.605 -> 5.062 (+0.544) -
+<img width="2983" height="1537" alt="floorplan_Cycle_7_Seed_4" src="https://github.com/user-attachments/assets/395a5295-3a2e-4867-a6f4-51953be4cf38" />
+
+- Cycle 8 : Seed 4 비용: 5.062 -> 5.062 (변화 없음) -
+<img width="2983" height="1537" alt="floorplan_Cycle_8_Seed_4" src="https://github.com/user-attachments/assets/97017748-c3f2-4d69-a130-f6142a72a423" />
+
+
+#### 3rd SA & Final Compaction (seed 4) 
+<img width="2983" height="1537" alt="floorplan_3rd_SA_Result" src="https://github.com/user-attachments/assets/a301b07d-b595-4a6f-906a-6da254d15896" />
+
+<img width="2983" height="1537" alt="floorplan_Final_Compacted_Layout" src="https://github.com/user-attachments/assets/882dfefc-8fd4-443e-85f2-a5dfe667bb61" />
+
+--- 결과 ---
+
+최종 경계 상자: W=462.00, H=397.00, 면적=183414.00 
+
+최종 HPWL (절대값)         = 385623.00
+
+최종 실제 DeadSpace 면적 =  7718.00 (4.21%)
+
+최종 비용 (w=0.66, r_penalty=2000.00, r_ds=100.00) = 5.062
 
 =================================================================
 
