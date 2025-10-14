@@ -216,11 +216,11 @@
 
 (where standard chip is square which has width, height = sqrt(all modules area sum*1.2) )
 
-#### 1st SA (seed 4) 
+#### < 1st SA >  (seed 4) 
 --- 초기 Seed 4 비용: 12.854 ---
 <img width="2984" height="1507" alt="floorplan_Initial_Seed_4" src="https://github.com/user-attachments/assets/1b439b9e-953b-4189-9ece-948cc5c11b28" />
 
-#### 2nd SA (seed 4) 
+#### < 2nd SA > (seed 4) 
 --- Cycle 1 :Seed 4 비용: 12.854 -> 7.671 (+5.183) ---
 <img width="2984" height="1530" alt="floorplan_Cycle_1_Seed_4" src="https://github.com/user-attachments/assets/6688f53c-0e54-478c-a5b1-0465c83ca1b1" />
 
@@ -246,7 +246,7 @@
 <img width="2983" height="1537" alt="floorplan_Cycle_8_Seed_4" src="https://github.com/user-attachments/assets/97017748-c3f2-4d69-a130-f6142a72a423" />
 
 
-#### 3rd SA & Final Compaction (seed 4) 
+#### < 3rd SA & Final Compaction > (seed 4) 
 <img width="2983" height="1537" alt="floorplan_3rd_SA_Result" src="https://github.com/user-attachments/assets/a301b07d-b595-4a6f-906a-6da254d15896" />
 
 <img width="2983" height="1537" alt="floorplan_Final_Compacted_Layout" src="https://github.com/user-attachments/assets/882dfefc-8fd4-443e-85f2-a5dfe667bb61" />
